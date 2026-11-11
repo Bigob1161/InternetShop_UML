@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mm8-MKz2EfG8A-c06YPeTw" name="NewModel">
+  <packagedElement xmi:type="uml:Component" xmi:id="_COrvMKz3EfG8A-c06YPeTw" name="Интернет-магазин. Доставка товаров" useCase="_--eGMKz3EfG8A-c06YPeTw">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_--eGMKz3EfG8A-c06YPeTw" name="UseCase5" subject="_COrvMKz3EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Hvd3MKz3EfG8A-c06YPeTw" name="Администратор">
+    <eAnnotations xmi:id="_Hvkk4Kz3EfG8A-c06YPeTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_HvlzAKz3EfG8A-c06YPeTw" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_OeJ5ULJ0EfGZxvvQje3q5A" general="_brAjIKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_V20zcKz3EfG8A-c06YPeTw" name="Кладовщик">
+    <eAnnotations xmi:id="_V25r8Kz3EfG8A-c06YPeTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_4DV1MKz5EfG8A-c06YPeTw" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_QuPsoLJ0EfGZxvvQje3q5A" general="_brAjIKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZHYlQKz3EfG8A-c06YPeTw" name="Диспетчер">
+    <eAnnotations xmi:id="_ZHc2sKz3EfG8A-c06YPeTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_ZHeE0Kz3EfG8A-c06YPeTw" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_U4jJ4LJ0EfGZxvvQje3q5A" general="_brAjIKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aoRwQKz3EfG8A-c06YPeTw" name="Курьер">
+    <eAnnotations xmi:id="_aoUMgKz3EfG8A-c06YPeTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_aoUzkKz3EfG8A-c06YPeTw" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_SmfnsLJ0EfGZxvvQje3q5A" general="_brAjIKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_brAjIKz4EfG8A-c06YPeTw" name="Пользователь">
+    <eAnnotations xmi:id="_brC_YKz4EfG8A-c06YPeTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_brDmcKz4EfG8A-c06YPeTw" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_dGwvcKz4EfG8A-c06YPeTw" name="Авторизация/Регистрация" useCase="_e6xDsKz4EfG8A-c06YPeTw _mu6VcKz4EfG8A-c06YPeTw">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e6xDsKz4EfG8A-c06YPeTw" name="Регистрация" subject="_dGwvcKz4EfG8A-c06YPeTw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mu6VcKz4EfG8A-c06YPeTw" name="Вход в систему" subject="_dGwvcKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vsNnoKz4EfG8A-c06YPeTw" memberEnd="_vsNnoaz4EfG8A-c06YPeTw _vsOOsKz4EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_vsNnoaz4EfG8A-c06YPeTw" type="_brAjIKz4EfG8A-c06YPeTw" association="_vsNnoKz4EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_vsOOsKz4EfG8A-c06YPeTw" type="_mu6VcKz4EfG8A-c06YPeTw" association="_vsNnoKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_2AIcwKz4EfG8A-c06YPeTw" name="Администратор" useCase="_d7tP4Kz3EfG8A-c06YPeTw _L8ykgKz9EfG8A-c06YPeTw _LJeRMKz9EfG8A-c06YPeTw _vjxvALJ3EfGZxvvQje3q5A">
+    <ownedUseCase xmi:id="_d7tP4Kz3EfG8A-c06YPeTw" name="Составление списка товаров" subject="_2AIcwKz4EfG8A-c06YPeTw">
+      <include xmi:id="_x1D04Lf4EfGqc8cqbAaI5A" addition="_PNvbkLf4EfGpHtwxxlMlcw"/>
+      <include xmi:id="_zz7VULf4EfGqc8cqbAaI5A" addition="_PQ-rILJ5EfGZxvvQje3q5A"/>
+      <include xmi:id="_2eKuALf4EfGqc8cqbAaI5A" addition="_LJeRMKz9EfG8A-c06YPeTw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_LJeRMKz9EfG8A-c06YPeTw" name="Удаление товара" subject="_2AIcwKz4EfG8A-c06YPeTw"/>
+    <ownedUseCase xmi:id="_vjxvALJ3EfGZxvvQje3q5A" name="Составление списка сотрудников" subject="_2AIcwKz4EfG8A-c06YPeTw">
+      <include xmi:id="_-LMEELf4EfGqc8cqbAaI5A" addition="_2qnO0LJ3EfGZxvvQje3q5A"/>
+      <include xmi:id="___qSYLf4EfGqc8cqbAaI5A" addition="_iymQoLJ5EfGZxvvQje3q5A"/>
+      <include xmi:id="_DCE6gLf5EfGqc8cqbAaI5A" addition="_2q9NELJ3EfGZxvvQje3q5A"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_2qnO0LJ3EfGZxvvQje3q5A" name="Добавление сотрудника"/>
+    <ownedUseCase xmi:id="_2q9NELJ3EfGZxvvQje3q5A" name="Удаление сотрудника"/>
+    <ownedUseCase xmi:id="_PQ-rILJ5EfGZxvvQje3q5A" name="Корректировка данных о товаре"/>
+    <ownedUseCase xmi:id="_iymQoLJ5EfGZxvvQje3q5A" name="Корректировка данных о сотрудниках"/>
+    <ownedUseCase xmi:id="_PNvbkLf4EfGpHtwxxlMlcw" name="Добавление товара"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_L8ykgKz9EfG8A-c06YPeTw" name="Добавление товара" subject="_2AIcwKz4EfG8A-c06YPeTw">
+      <include xmi:id="_URb7QKz9EfG8A-c06YPeTw" addition="_d7tP4Kz3EfG8A-c06YPeTw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_51j2MKz4EfG8A-c06YPeTw" memberEnd="_51lrYKz4EfG8A-c06YPeTw _51mScKz4EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_51lrYKz4EfG8A-c06YPeTw" type="_d7tP4Kz3EfG8A-c06YPeTw" association="_51j2MKz4EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_51mScKz4EfG8A-c06YPeTw" type="_Hvd3MKz3EfG8A-c06YPeTw" association="_51j2MKz4EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_EmCWMKz5EfG8A-c06YPeTw" name="Кладовщик" useCase="_lLVfUKz3EfG8A-c06YPeTw _azIGoKz9EfG8A-c06YPeTw _ey2EgKz9EfG8A-c06YPeTw _HqPjQLJ5EfGZxvvQje3q5A _PWBNkL15EfGhKqdTvOiA_A">
+    <ownedUseCase xmi:id="_lLVfUKz3EfG8A-c06YPeTw" name="Подбор товаров по заказу пользователя" subject="_EmCWMKz5EfG8A-c06YPeTw">
+      <ownedUseCase xmi:id="_aCu2YKz7EfG8A-c06YPeTw" name="Вход в систему"/>
+      <include xmi:id="__53o4Lf3EfGpHtwxxlMlcw" addition="_HqPjQLJ5EfGZxvvQje3q5A"/>
+    </ownedUseCase>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_azIGoKz9EfG8A-c06YPeTw" name="Добавление товара" subject="_EmCWMKz5EfG8A-c06YPeTw">
+      <include xmi:id="_g1q34Kz9EfG8A-c06YPeTw" addition="_lLVfUKz3EfG8A-c06YPeTw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ey2EgKz9EfG8A-c06YPeTw" name="Удаление товара" subject="_EmCWMKz5EfG8A-c06YPeTw">
+      <include xmi:id="_haYugKz9EfG8A-c06YPeTw" addition="_lLVfUKz3EfG8A-c06YPeTw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HqPjQLJ5EfGZxvvQje3q5A" name="Корректировка списка заказов" subject="_EmCWMKz5EfG8A-c06YPeTw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PWBNkL15EfGhKqdTvOiA_A" name="Связь с диспетчером" subject="_EmCWMKz5EfG8A-c06YPeTw">
+      <extend xmi:id="_TL5S8L15EfGhKqdTvOiA_A" extendedCase="_lLVfUKz3EfG8A-c06YPeTw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JujvMKz5EfG8A-c06YPeTw" memberEnd="_JuoAoKz5EfG8A-c06YPeTw _Juqc4Kz5EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_JuoAoKz5EfG8A-c06YPeTw" type="_lLVfUKz3EfG8A-c06YPeTw" association="_JujvMKz5EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_Juqc4Kz5EfG8A-c06YPeTw" type="_V20zcKz3EfG8A-c06YPeTw" association="_JujvMKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ShT-QKz5EfG8A-c06YPeTw" name="Диспетчер" useCase="_tZTmUKz3EfG8A-c06YPeTw _vfczcKz3EfG8A-c06YPeTw _0HN6MLf3EfGpHtwxxlMlcw _baH4oL15EfGhKqdTvOiA_A">
+    <ownedUseCase xmi:id="_tZTmUKz3EfG8A-c06YPeTw" name="Распределение заказов для доставки курьером" subject="_ShT-QKz5EfG8A-c06YPeTw">
+      <include xmi:id="_4xjiYLf3EfGpHtwxxlMlcw" addition="_0HN6MLf3EfGpHtwxxlMlcw"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:id="_vfczcKz3EfG8A-c06YPeTw" name="Слежение за доставкой заказов" subject="_ShT-QKz5EfG8A-c06YPeTw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0HN6MLf3EfGpHtwxxlMlcw" name="Выбор свободного курьера" subject="_ShT-QKz5EfG8A-c06YPeTw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_baH4oL15EfGhKqdTvOiA_A" name="Связь с клиентом" subject="_ShT-QKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fLjcQKz5EfG8A-c06YPeTw" memberEnd="_fLl4gKz5EfG8A-c06YPeTw _fLmfkKz5EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_fLl4gKz5EfG8A-c06YPeTw" type="_tZTmUKz3EfG8A-c06YPeTw" association="_fLjcQKz5EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_fLmfkKz5EfG8A-c06YPeTw" type="_ZHYlQKz3EfG8A-c06YPeTw" association="_fLjcQKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_frBmgKz5EfG8A-c06YPeTw" memberEnd="_frC0oKz5EfG8A-c06YPeTw _frC0oaz5EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_frC0oKz5EfG8A-c06YPeTw" type="_vfczcKz3EfG8A-c06YPeTw" association="_frBmgKz5EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_frC0oaz5EfG8A-c06YPeTw" type="_ZHYlQKz3EfG8A-c06YPeTw" association="_frBmgKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_kttdQKz5EfG8A-c06YPeTw" name="Курьер" useCase="_mgu6EKz5EfG8A-c06YPeTw">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mgu6EKz5EfG8A-c06YPeTw" name="Доставка заказов" subject="_kttdQKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tfOWMKz5EfG8A-c06YPeTw" memberEnd="_tfQLYKz5EfG8A-c06YPeTw _tfQycKz5EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_tfQLYKz5EfG8A-c06YPeTw" type="_mgu6EKz5EfG8A-c06YPeTw" association="_tfOWMKz5EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_tfQycKz5EfG8A-c06YPeTw" type="_aoRwQKz3EfG8A-c06YPeTw" association="_tfOWMKz5EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Jn1xQKz7EfG8A-c06YPeTw" name="Оформление заказов" useCase="_NdNgUKz7EfG8A-c06YPeTw">
+    <ownedUseCase xmi:id="_NdNgUKz7EfG8A-c06YPeTw" name="Составление заказов клиентом" subject="_Jn1xQKz7EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VlHbkKz7EfG8A-c06YPeTw" name="A_составление заказов клиентом_no Human" memberEnd="_VlICoKz7EfG8A-c06YPeTw _VlIpsKz7EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_VlICoKz7EfG8A-c06YPeTw" type="_NdNgUKz7EfG8A-c06YPeTw" association="_VlHbkKz7EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_VlIpsKz7EfG8A-c06YPeTw" association="_VlHbkKz7EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3GReEKz7EfG8A-c06YPeTw" memberEnd="_3GSFIKz7EfG8A-c06YPeTw _3GSsMKz7EfG8A-c06YPeTw">
+    <ownedEnd xmi:id="_3GSFIKz7EfG8A-c06YPeTw" type="_Hvd3MKz3EfG8A-c06YPeTw" association="_3GReEKz7EfG8A-c06YPeTw"/>
+    <ownedEnd xmi:id="_3GSsMKz7EfG8A-c06YPeTw" type="_e6xDsKz4EfG8A-c06YPeTw" association="_3GReEKz7EfG8A-c06YPeTw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_sAKA8K6KEfGJgs97Iwl6jQ" name="NewModel Subject"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_NP6vILJ1EfGZxvvQje3q5A" name="Интернет-магазин. Доставка товаров"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jn1hcLJ3EfGZxvvQje3q5A" name="Клиентская система"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ryf1wLJ3EfGZxvvQje3q5A" memberEnd="_ryhD4LJ3EfGZxvvQje3q5A _ryiSALJ3EfGZxvvQje3q5A">
+    <ownedEnd xmi:id="_ryhD4LJ3EfGZxvvQje3q5A" type="_jn1hcLJ3EfGZxvvQje3q5A" association="_ryf1wLJ3EfGZxvvQje3q5A"/>
+    <ownedEnd xmi:id="_ryiSALJ3EfGZxvvQje3q5A" type="_NdNgUKz7EfG8A-c06YPeTw" association="_ryf1wLJ3EfGZxvvQje3q5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wdGKYLJ8EfGZxvvQje3q5A" memberEnd="_wdJNsLJ8EfGZxvvQje3q5A _wdKb0LJ8EfGZxvvQje3q5A">
+    <ownedEnd xmi:id="_wdJNsLJ8EfGZxvvQje3q5A" type="_vjxvALJ3EfGZxvvQje3q5A" association="_wdGKYLJ8EfGZxvvQje3q5A"/>
+    <ownedEnd xmi:id="_wdKb0LJ8EfGZxvvQje3q5A" type="_Hvd3MKz3EfG8A-c06YPeTw" association="_wdGKYLJ8EfGZxvvQje3q5A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GaJ7QL14EfGHz9IM-rgFlA" name="UseCase1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jVGLIL15EfGhKqdTvOiA_A" memberEnd="_jVLqsL15EfGhKqdTvOiA_A _jVOG8L15EfGhKqdTvOiA_A">
+    <ownedEnd xmi:id="_jVLqsL15EfGhKqdTvOiA_A" type="_ZHYlQKz3EfG8A-c06YPeTw" association="_jVGLIL15EfGhKqdTvOiA_A"/>
+    <ownedEnd xmi:id="_jVOG8L15EfGhKqdTvOiA_A" type="_baH4oL15EfGhKqdTvOiA_A" association="_jVGLIL15EfGhKqdTvOiA_A"/>
+  </packagedElement>
+</uml:Model>
